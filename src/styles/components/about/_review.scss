@@ -1,0 +1,22 @@
+.review {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  &_ratings {
+    font-size: 1.7rem;
+    margin-right: 1rem;
+    color: goldenrod;
+  }
+  &_stars {
+    margin-right: 1rem;
+  }
+  &_number {
+    font-size: 1.7rem;
+    color: #1b73e9;
+  }
+  .star {
+    color: #f8ce0b;
+    font-size: 2rem;
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+
+  &_icon {
+    & img {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 1rem;
+      border: 2px solid $primary-color;
+    }
+  }
+  &_details {
+    padding-left: 2rem;
+    &-title {
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin: 0;
+    }
+    &-description {
+      font-size: 1.6rem;
+      font-weight: 400;
+      & .about-link {
+        margin-left: 0.5rem;
+      }
+      & .about-link:link,
+      .about-link:visited,
+      .about-link:hover,
+      .about-link:active {
+        color: $primary-color;
+      }
+      & .about-link:visited {
+        border-bottom-color: rgba(255, 255, 255, 0);
+      }
+    }
+  }
+  &_direction {
+    display: block;
+    color: $text-color;
+    font-size: 1.8rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 2rem;
+  }
+}
